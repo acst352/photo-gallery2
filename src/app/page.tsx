@@ -1,5 +1,11 @@
-import { ArrayPhotos } from "@/src/components";
+import { Header, Photos, Footer } from "@/src/components";
 
 export default async function Home() {
-  return <ArrayPhotos />;
+  return (
+    <div>
+      <Header />
+      <Photos />
+      <Footer />
+    </div>
+  );
 }

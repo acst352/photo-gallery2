@@ -15,9 +15,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.ico" sizes="64x64" />
       </head>
-      <body className={`${montserrat.className} `}>
-        {children}
-      </body>
+      <body className={`${montserrat.className}`}>{children}</body>
     </html>
   );
 }
