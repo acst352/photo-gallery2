@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { montserrat } from "@/config";
+import { montserrat } from "@/src/config";
 import "./globals.css";
 
 export const metadata: Metadata = {

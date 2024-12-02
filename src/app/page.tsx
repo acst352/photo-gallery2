@@ -1,4 +1,4 @@
-import { ArrayPhotos } from "@/components";
+import { ArrayPhotos } from "@/src/components";
 
 export default async function Home() {
   return <ArrayPhotos />;
