@@ -1,3 +1,3 @@
 export const Footer = () => {
-  return <div className="to-blue-500">Footer</div>;
+  return <div className="flex bg-blue-500 w-full">Footer</div>;
 };

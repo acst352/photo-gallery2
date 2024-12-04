@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.light-theme {
+  --color-1: #f6f6f6;
+  --color-2: #e8e8e8;
+  --color-3: #333333;
+  --color-4: #990100;
+  --color-5: #b90504;
+
+  background-color: var(--color-1);
+}
+
+:root {
+  --theme-color: var(--color-1);
+}
+
+.header-bar {
+  --theme-color: var(--color-4);
+}

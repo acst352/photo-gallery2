@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { montserrat } from "@/src/config";
 import "./globals.css";
+import { Header } from "../components";
 
 export const metadata: Metadata = {
   title: "Galería de fotografía",
@@ -14,8 +15,9 @@ export default function RootLayout({
     <html lang="es">
       <head>
         <link rel="icon" href="/favicon.ico" sizes="64x64" />
+        <link href="./globals.css" rel="stylesheet" />
       </head>
-      <body className={`${montserrat.className}`}>{children}</body>
+      <body className={`${montserrat.className} light-theme`}>{children}</body>
     </html>
   );
 }
