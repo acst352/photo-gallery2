@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { montserrat } from "@/src/config";
 import "./globals.css";
-import { Header } from "../components";
 
 export const metadata: Metadata = {
   title: "Galería de fotografía",

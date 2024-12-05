@@ -12,10 +12,14 @@
   background-color: var(--color-1);
 }
 
-:root {
-  --theme-color: var(--color-1);
+.header {
+  --theme-color: var(--color-3);
 }
 
-.header-bar {
-  --theme-color: var(--color-4);
+.photos {
+  --theme-color: var(--color-2);
+}
+
+.footer {
+  --theme-color: var(--color-3);
 }

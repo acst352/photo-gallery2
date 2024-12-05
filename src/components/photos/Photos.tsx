@@ -1,9 +1,9 @@
 export const Photos = () => {
   return (
     <>
-      <div className="bg-red-500 w-full">
+      <div className="w-full photos">
         Photos
-        <div className="bg-green w-full">aaaaaaaaaaaa</div>
+        <div className="bg-green-500 w-full">a</div>
       </div>
     </>
   );
