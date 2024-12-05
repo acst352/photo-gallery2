@@ -1,7 +1,5 @@
+import React from "react";
+
 export const Header = () => {
-  return (
-    <>
-      <div className="header w-full">Header</div>
-    </>
-  );
+  return <div className="header w-full">Header</div>;
 };

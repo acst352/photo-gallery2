@@ -13,13 +13,13 @@
 }
 
 .header {
-  --theme-color: var(--color-3);
+  background-color: var(--color-3);
 }
 
 .photos {
-  --theme-color: var(--color-2);
+  background-color: var(--color-2);
 }
 
 .footer {
-  --theme-color: var(--color-3);
+  background-color: var(--color-3);
 }
