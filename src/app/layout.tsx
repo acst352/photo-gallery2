@@ -16,7 +16,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" sizes="64x64" />
         <link href="./globals.css" rel="stylesheet" />
       </head>
-      <body className={`${montserrat.className} light-theme`}>{children}</body>
+      <body className={`${montserrat.className} light-theme `}>{children}</body>
     </html>
   );
 }
